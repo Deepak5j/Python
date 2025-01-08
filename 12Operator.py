@@ -17,6 +17,14 @@ print('*=')
 print('/=')
 print('//=')
 print('%=')
+print('**=')
+print('&=') 
+print('!=')
+print('^=')
+print('>>=')
+print('<<=')
+print(':=')
+print(x:=3)
 
 
 
