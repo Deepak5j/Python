@@ -26,6 +26,19 @@ print('<<=')
 print(':=')
 print(x:=3)
 
+print('\n3.Comparison Operators')
+print('==')
+print('!=')
+print('>') 
+print('<')
+print('>=')
+print('<=')
+
+print('\n4.Logical Operators')
+print('and 1<10 and 3<10', 1<10 and 3<10)
+print('or 1>5 or 3<10', 1>5 or 3<10)
+print('not 1<5', not(1<5))
+
 
 
 
