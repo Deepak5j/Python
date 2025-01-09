@@ -39,6 +39,15 @@ print('and 1<10 and 3<10', 1<10 and 3<10)
 print('or 1>5 or 3<10', 1>5 or 3<10)
 print('not 1<5', not(1<5))
 
+print('\n5.Identity Operators')
+print('is')
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+print(x is not z)
+print(x is not y)
+print(x != y)
+
 
 
 
