@@ -31,3 +31,20 @@ ls4 = list(("apple", "banana", "cherry"))
 print(ls4)
 ls5 = list((1,2))
 print(ls5)
+
+print('\n9. Insert Items')
+print('Before Insert: ', ls4)
+ls4.insert(1, 'orange')
+print('After Insert: ', ls4)
+
+print('\n10. Append Items')
+print('Before Append: ', ls4)
+ls4.append('orange2')
+
+print('\n11. Extend List')
+print('Before Extend: ', ls4)
+print('Before Extend: ', ls5)
+ls4.extend(ls5)
+print('After Extend: ', ls4)
+
+
