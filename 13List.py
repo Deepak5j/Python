@@ -70,7 +70,16 @@ print('After Remove: ', ls4)
 print('\n16. del keyword')
 del ls4[0]
 print('After Remove: ', ls4)
-del ls4[4]
+del ls4[3:4]
+print('After Remove: ', ls4)
+del ls4
+# print('After Remove: ', ls4) # NameError: name 'ls4' is not defined
+
+print('\n17. clear()')
+print('After Clear: ', ls5)
+ls5.clear()
+print('After Clear: ', ls5)
+
 
 
 
