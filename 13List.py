@@ -47,4 +47,30 @@ print('Before Extend: ', ls5)
 ls4.extend(ls5)
 print('After Extend: ', ls4)
 
+print('\n12. Adding any iterable')
+ls6 = [11, 22, 33, 44, 55]
+ls4.extend(ls6)
+print('After Extend: ', ls4)
+
+print('\n13. Remove Item')
+ls4.remove(11)
+ls4.remove(44)
+ls4.remove(55)
+print('After Remove: ', ls4)
+
+print('\n14. removing by index')
+ls4.pop(1)
+ls4.pop(6)
+print('After Remove: ', ls4)
+
+print('\n15. pop() removing last by default')
+ls4.pop()
+print('After Remove: ', ls4)
+
+print('\n16. del keyword')
+del ls4[0]
+print('After Remove: ', ls4)
+del ls4[4]
+
+
 
