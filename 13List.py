@@ -80,6 +80,23 @@ print('After Clear: ', ls5)
 ls5.clear()
 print('After Clear: ', ls5)
 
+print('\n18. Loop Through a List')
+for x in ls3:
+    print(x, end=' ')
+    
+print('\n\n19. Loop Through the Index Numbers')
+for i in range(len(ls3)):
+    print(ls3[i], end=' ')
+    
+print('\n\n20. Using a While Loop')
+i = 0
+while i < len(ls3):
+    print(ls3[i], end=' ')
+    i += 1
+
+print('\n\n21. List Comprehension')
+ls7 = [x for x in ls3]
+print(ls7)
 
 
 
