@@ -120,4 +120,14 @@ newlist = ['hello' for x in fruits]
 print(newlist)
 
 newlist = [x if x != "banana" else "orange" for x in fruits]
-print(newlist)
+print('#',newlist)
+
+print('\n26. Reverse Sort List')
+print('Before Sort: ', fruits)
+fruits.sort(reverse=True)
+print('After Sort: ', fruits)
+
+print('\n27. Sort List')
+print('Before Sort: ', fruits)
+fruits.sort()
+print('After Sort: ', fruits)
